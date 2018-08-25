@@ -1,0 +1,30 @@
+{
+	"main": "build/index.js",
+	"devDependencies": {
+		"@types/react": "^16.0.31",
+		"framer": "^0.7.5"
+	},
+	"dependencies": {
+		"styled-components": "^3.4.5"
+	},
+	"peerDependencies": {
+		"framer": "^0.7.5",
+		"react": "^16.3.0",
+		"react-dom": "^16.3.0"
+	},
+	"framer": {
+		"id": "10a72254-f1d1-4c22-a7e1-c82e7dddcd02",
+		"displayName": "Button"
+	},
+	"author": "Radek Kozieł",
+	"version": "1.1.0",
+	"license": "MIT",
+	"name": "@framer/panr.button",
+	"keywords": [
+		"button",
+		"ui",
+		"touchable",
+		"cta",
+		"trending"
+	]
+}
