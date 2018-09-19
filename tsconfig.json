@@ -6,7 +6,7 @@
         "jsx": "react",
         "outDir": "build",
         "sourceMap": false,
-        "declaration": false
+        "declaration": false,
     },
     "exclude": ["node_modules", "build"]
 }

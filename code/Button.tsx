@@ -1,5 +1,5 @@
-import * as React from "react";
-import { PropertyControls, ControlType } from "framer";
+import * as React from "react"
+import { PropertyControls, ControlType } from 'framer'
 import styled, { injectGlobal } from 'styled-components'
 
 injectGlobal`
@@ -14,8 +14,11 @@ interface Props {
     icon: string,
     backgroundColor: string,
     textColor: string,
+    fontFamily: "-apple-system" | "Arial" | "Courier" | "Courier New" | "Futura" | "Geneva" | "Georgia" | "Gill Sans" | "Helvetica" | "Helvetica Neue" | "Lucida Grande" | "Menlo" | "Monaco" | "Tahoma" | "Times" | "Verdana",
     fontSize: "12" | "14" | "16" | "18" | "20" | "22" | "24",
     fontWeight: "100" | "200" | "300" | "400" | "500" | "600" | "700" | "800" | "900",
+    letterSpacing: number,
+    textTransform: "none" | "lowecase" | "uppercase",
     borderRadius: number,
     borderWidth: number,
 }
@@ -48,8 +51,11 @@ const IconContainer = styled<Props, any>('span')`
 `
 
 const StyledText = styled<Props, any>('span')`
+    font-family: ${props => props.fontFamily};
     font-weight: ${props => props.fontWeight};
     font-size: ${props => props.fontSize}px;
+    letter-spacing: ${props => props.letterSpacing / 100}em;
+    text-transform: ${props => props.textTransform};
 `
 
 export class Button extends React.Component<Props> {
@@ -64,8 +70,11 @@ export class Button extends React.Component<Props> {
         icon: "pan_tool",
         backgroundColor: "#F59D0D",
         textColor: "white",
+        fontFamily: "-apple-system",
         fontSize: "16",
         fontWeight: "600",
+        letterSpacing: 2,
+        textTransform: "none",
         borderRadius: 8,
         borderWidth: 1,
     }
@@ -78,21 +87,24 @@ export class Button extends React.Component<Props> {
         label: { type: ControlType.String, title: "Button Label" },
         backgroundColor: { type: ControlType.Color, title: "Background Color" },
         textColor: { type: ControlType.Color, hidden: props => props.isOutline && !props.isPrimary, title: "Text Color" },
+        fontFamily: { type: ControlType.Enum, options: ["-apple-system", "Arial", "Courier", "Courier New", "Futura", "Geneva", "Georgia", "Gill Sans", "Helvetica", "Helvetica Neue", "Lucida Grande", "Menlo", "Monaco", "Tahoma", "Times", "Verdana"], title: "Font Family" },
         fontSize: { type: ControlType.Enum, options: ["12", "14", "16", "18", "20", "22", "24"], title: "Font Size" },
         fontWeight: { type: ControlType.Enum,
             options: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
             title: "Font Weight" },
+        textTransform: { type: ControlType.SegmentedEnum, options: ["none", "lowercase", "uppercase"], optionTitles: ["None", "Lower", "Upper"], title: "Text Transform" },
+        letterSpacing: { type: ControlType.Number, min: 0, max: 50, title: "Letter Spacing" },
         borderRadius: { type: ControlType.Number, title: "Border Radius" },
         borderWidth: { type: ControlType.Number, title: "Border Width" },
     }
 
     render() {
-        const { isPrimary, isOutline, backgroundColor, textColor, icon, label, fontSize, fontWeight, isIcon, borderRadius, borderWidth } = this.props
+        const { isPrimary, isOutline, backgroundColor, textColor, icon, label, fontFamily, fontSize, fontWeight, letterSpacing, textTransform, isIcon, borderRadius, borderWidth } = this.props
         return (
             <StyledButton isPrimary={isPrimary} isOutline={isOutline} backgroundColor={backgroundColor} textColor={textColor} borderRadius={borderRadius} borderWidth={borderWidth}>
                 <StyledButtonInner>
                     {isIcon && <IconContainer fontSize={fontSize} className="material-icons">{icon}</IconContainer>}
-                    <StyledText fontSize={fontSize} fontWeight={fontWeight}>{label}</StyledText>
+                    <StyledText fontFamily={fontFamily} fontSize={fontSize} fontWeight={fontWeight} letterSpacing={letterSpacing} textTransform={textTransform}>{label}</StyledText>
                 </StyledButtonInner>
             </StyledButton>
         );

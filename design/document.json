@@ -64,6 +64,7 @@
               "volume" : 100,
               "wave" : "sawtooth"
             },
+            "codeOverrideEnabled" : false,
             "codeOverrideFile" : null,
             "codeOverrideIdentifier" : null,
             "codeOverrideName" : null,
@@ -158,6 +159,7 @@
               "volume" : 100,
               "wave" : "sawtooth"
             },
+            "codeOverrideEnabled" : false,
             "codeOverrideFile" : null,
             "codeOverrideIdentifier" : null,
             "codeOverrideName" : null,
@@ -252,6 +254,7 @@
               "volume" : 100,
               "wave" : "sawtooth"
             },
+            "codeOverrideEnabled" : false,
             "codeOverrideFile" : null,
             "codeOverrideIdentifier" : null,
             "codeOverrideName" : null,
@@ -346,6 +349,7 @@
               "volume" : 100,
               "wave" : "sawtooth"
             },
+            "codeOverrideEnabled" : false,
             "codeOverrideFile" : null,
             "codeOverrideIdentifier" : null,
             "codeOverrideName" : null,
@@ -440,6 +444,7 @@
               "volume" : 100,
               "wave" : "sawtooth"
             },
+            "codeOverrideEnabled" : false,
             "codeOverrideFile" : null,
             "codeOverrideIdentifier" : null,
             "codeOverrideName" : null,
@@ -534,6 +539,7 @@
               "volume" : 100,
               "wave" : "sawtooth"
             },
+            "codeOverrideEnabled" : false,
             "codeOverrideFile" : null,
             "codeOverrideIdentifier" : null,
             "codeOverrideName" : null,
@@ -628,6 +634,7 @@
               "volume" : 100,
               "wave" : "sawtooth"
             },
+            "codeOverrideEnabled" : false,
             "codeOverrideFile" : null,
             "codeOverrideIdentifier" : null,
             "codeOverrideName" : null,
@@ -722,6 +729,7 @@
               "volume" : 100,
               "wave" : "sawtooth"
             },
+            "codeOverrideEnabled" : false,
             "codeOverrideFile" : null,
             "codeOverrideIdentifier" : null,
             "codeOverrideName" : null,
@@ -816,6 +824,7 @@
               "volume" : 100,
               "wave" : "sawtooth"
             },
+            "codeOverrideEnabled" : false,
             "codeOverrideFile" : null,
             "codeOverrideIdentifier" : null,
             "codeOverrideName" : null,
@@ -910,6 +919,7 @@
               "volume" : 100,
               "wave" : "sawtooth"
             },
+            "codeOverrideEnabled" : false,
             "codeOverrideFile" : null,
             "codeOverrideIdentifier" : null,
             "codeOverrideName" : null,
@@ -1004,6 +1014,7 @@
               "volume" : 100,
               "wave" : "sawtooth"
             },
+            "codeOverrideEnabled" : false,
             "codeOverrideFile" : null,
             "codeOverrideIdentifier" : null,
             "codeOverrideName" : null,
@@ -1098,6 +1109,7 @@
               "volume" : 100,
               "wave" : "sawtooth"
             },
+            "codeOverrideEnabled" : false,
             "codeOverrideFile" : null,
             "codeOverrideIdentifier" : null,
             "codeOverrideName" : null,
@@ -1158,6 +1170,7 @@
           }
         ],
         "clip" : true,
+        "codeOverrideEnabled" : false,
         "codeOverrideFile" : null,
         "codeOverrideIdentifier" : null,
         "codeOverrideName" : null,
@@ -1165,7 +1178,6 @@
         "contrast" : 100,
         "contrastEnabled" : 0,
         "deviceType" : "framer\/FramerAppleIPhoneX",
-        "exportIncludesBackground" : true,
         "exportOptions" : [
 
         ],
@@ -1272,6 +1284,7 @@
             "brightnessEnabled" : 0,
             "centerAnchorX" : 0.12933333333333333,
             "centerAnchorY" : 0.5,
+            "codeOverrideEnabled" : false,
             "constraintsLocked" : false,
             "contrast" : 100,
             "contrastEnabled" : 0,
@@ -1354,7 +1367,7 @@
               ],
               "cached" : {
                 "html" : "<span data-offset-key=\"1mmrf-0-0\" style=\"tab-size:4;font-family:&quot;.SFNSText&quot;, &quot;SFProText-Regular&quot;, &quot;SFUIText-Regular&quot;, &quot;.SFUIText&quot;, sans-serif;-webkit-text-fill-color:#007AFF;font-size:17px;letter-spacing:-0.41px;line-height:2.6\"><span data-text=\"true\">Action 1<\/span><\/span>",
-                "os" : "10_13",
+                "os" : "10_14",
                 "size" : {
                   "height" : 44,
                   "width" : 62
@@ -1381,6 +1394,7 @@
             "brightnessEnabled" : 0,
             "centerAnchorX" : 0.8666666666666667,
             "centerAnchorY" : 0.5,
+            "codeOverrideEnabled" : false,
             "constraintsLocked" : false,
             "contrast" : 100,
             "contrastEnabled" : 0,
@@ -1463,7 +1477,7 @@
               ],
               "cached" : {
                 "html" : "<span data-offset-key=\"1mmrf-0-0\" style=\"tab-size:4;font-family:&quot;.SFNSText&quot;, &quot;SFProText-Regular&quot;, &quot;SFUIText-Regular&quot;, &quot;.SFUIText&quot;, sans-serif;-webkit-text-fill-color:#007AFF;font-size:17px;letter-spacing:-0.41px;line-height:2.6\"><span data-text=\"true\">Action 3<\/span><\/span>",
-                "os" : "10_13",
+                "os" : "10_14",
                 "size" : {
                   "height" : 44,
                   "width" : 65
@@ -1490,6 +1504,7 @@
             "brightnessEnabled" : 0,
             "centerAnchorX" : 0.5013333333333333,
             "centerAnchorY" : 0.5,
+            "codeOverrideEnabled" : false,
             "constraintsLocked" : false,
             "contrast" : 100,
             "contrastEnabled" : 0,
@@ -1572,7 +1587,7 @@
               ],
               "cached" : {
                 "html" : "<span data-offset-key=\"1mmrf-0-0\" style=\"tab-size:4;font-family:&quot;.SFNSText&quot;, &quot;SFProText-Regular&quot;, &quot;SFUIText-Regular&quot;, &quot;.SFUIText&quot;, sans-serif;-webkit-text-fill-color:#007AFF;font-size:17px;letter-spacing:-0.41px;line-height:2.6\"><span data-text=\"true\">Action 2<\/span><\/span>",
-                "os" : "10_13",
+                "os" : "10_14",
                 "size" : {
                   "height" : 44,
                   "width" : 64
@@ -1590,6 +1605,7 @@
           }
         ],
         "clip" : false,
+        "codeOverrideEnabled" : false,
         "codeOverrideFile" : null,
         "codeOverrideIdentifier" : null,
         "codeOverrideName" : null,
@@ -1597,7 +1613,6 @@
         "contrast" : 100,
         "contrastEnabled" : 0,
         "deviceType" : null,
-        "exportIncludesBackground" : true,
         "exportOptions" : [
 
         ],
@@ -1730,6 +1745,7 @@
                 "brightnessEnabled" : 0,
                 "centerAnchorX" : 0.5056338028169014,
                 "centerAnchorY" : 0.5,
+                "codeOverrideEnabled" : false,
                 "constraintsLocked" : false,
                 "contrast" : 100,
                 "contrastEnabled" : 0,
@@ -1818,7 +1834,7 @@
                   ],
                   "cached" : {
                     "html" : "<span data-offset-key=\"8cbgv-0-0\" style=\"tab-size:4;font-family:&quot;.SFNSDisplay&quot;, &quot;SFProDisplay-Regular&quot;, &quot;SFUIDisplay-Regular&quot;, &quot;.SFUIDisplay&quot;, sans-serif;-webkit-text-fill-color:#FF3B30;font-size:20px;letter-spacing:0.38px;line-height:1.2\"><span data-text=\"true\">Destructive Action<\/span><\/span>",
-                    "os" : "10_13",
+                    "os" : "10_14",
                     "size" : {
                       "height" : 24,
                       "width" : 162
@@ -1836,6 +1852,7 @@
               }
             ],
             "clip" : true,
+            "codeOverrideEnabled" : false,
             "codeOverrideFile" : null,
             "codeOverrideIdentifier" : null,
             "codeOverrideName" : null,
@@ -1843,7 +1860,6 @@
             "contrast" : 100,
             "contrastEnabled" : 0,
             "deviceType" : null,
-            "exportIncludesBackground" : true,
             "exportOptions" : [
 
             ],
@@ -1950,6 +1966,7 @@
                 "brightnessEnabled" : 0,
                 "centerAnchorX" : 0.5,
                 "centerAnchorY" : 0.5,
+                "codeOverrideEnabled" : false,
                 "constraintsLocked" : false,
                 "contrast" : 100,
                 "contrastEnabled" : 0,
@@ -2038,7 +2055,7 @@
                   ],
                   "cached" : {
                     "html" : "<span data-offset-key=\"8cbgv-0-0\" style=\"tab-size:4;font-family:&quot;.SFNSDisplay&quot;, &quot;SFProDisplay-Regular&quot;, &quot;SFUIDisplay-Regular&quot;, &quot;.SFUIDisplay&quot;, sans-serif;-webkit-text-fill-color:#007AFF;font-size:20px;letter-spacing:0.38px;line-height:1.2\"><span data-text=\"true\">Action<\/span><\/span>",
-                    "os" : "10_13",
+                    "os" : "10_14",
                     "size" : {
                       "height" : 24,
                       "width" : 57
@@ -2056,6 +2073,7 @@
               }
             ],
             "clip" : true,
+            "codeOverrideEnabled" : false,
             "codeOverrideFile" : null,
             "codeOverrideIdentifier" : null,
             "codeOverrideName" : null,
@@ -2063,7 +2081,6 @@
             "contrast" : 100,
             "contrastEnabled" : 0,
             "deviceType" : null,
-            "exportIncludesBackground" : true,
             "exportOptions" : [
 
             ],
@@ -2161,6 +2178,7 @@
                 "brightnessEnabled" : 0,
                 "centerAnchorX" : 0.5,
                 "centerAnchorY" : 0.5,
+                "codeOverrideEnabled" : false,
                 "constraintsLocked" : false,
                 "contrast" : 100,
                 "contrastEnabled" : 0,
@@ -2249,7 +2267,7 @@
                   ],
                   "cached" : {
                     "html" : "<span data-offset-key=\"8cbgv-0-0\" style=\"tab-size:4;font-family:&quot;.SFNSDisplay&quot;, &quot;SFProDisplay-Regular&quot;, &quot;SFUIDisplay-Regular&quot;, &quot;.SFUIDisplay&quot;, sans-serif;-webkit-text-fill-color:rgba(142, 142, 147, 1.00);font-size:20px;letter-spacing:0.38px;line-height:1.2\"><span data-text=\"true\">Disabled Action<\/span><\/span>",
-                    "os" : "10_13",
+                    "os" : "10_14",
                     "size" : {
                       "height" : 24,
                       "width" : 138
@@ -2267,6 +2285,7 @@
               }
             ],
             "clip" : true,
+            "codeOverrideEnabled" : false,
             "codeOverrideFile" : null,
             "codeOverrideIdentifier" : null,
             "codeOverrideName" : null,
@@ -2274,7 +2293,6 @@
             "contrast" : 100,
             "contrastEnabled" : 0,
             "deviceType" : null,
-            "exportIncludesBackground" : true,
             "exportOptions" : [
 
             ],
@@ -2381,6 +2399,7 @@
                 "brightnessEnabled" : 0,
                 "centerAnchorX" : 0.5,
                 "centerAnchorY" : 0.5,
+                "codeOverrideEnabled" : false,
                 "constraintsLocked" : false,
                 "contrast" : 100,
                 "contrastEnabled" : 0,
@@ -2469,7 +2488,7 @@
                   ],
                   "cached" : {
                     "html" : "<span data-offset-key=\"8cbgv-0-0\" style=\"tab-size:4;font-family:&quot;.SFNSDisplay&quot;, &quot;SFProDisplay-Regular&quot;, &quot;SFUIDisplay-Regular&quot;, &quot;.SFUIDisplay&quot;, sans-serif;-webkit-text-fill-color:#007AFF;font-size:20px;letter-spacing:0.38px;line-height:1.2\"><span data-text=\"true\">Action<\/span><\/span>",
-                    "os" : "10_13",
+                    "os" : "10_14",
                     "size" : {
                       "height" : 24,
                       "width" : 57
@@ -2487,6 +2506,7 @@
               }
             ],
             "clip" : true,
+            "codeOverrideEnabled" : false,
             "codeOverrideFile" : null,
             "codeOverrideIdentifier" : null,
             "codeOverrideName" : null,
@@ -2494,7 +2514,6 @@
             "contrast" : 100,
             "contrastEnabled" : 0,
             "deviceType" : null,
-            "exportIncludesBackground" : true,
             "exportOptions" : [
 
             ],
@@ -2592,6 +2611,7 @@
                 "brightnessEnabled" : 0,
                 "centerAnchorX" : 0.5,
                 "centerAnchorY" : 0.5178571428571429,
+                "codeOverrideEnabled" : false,
                 "constraintsLocked" : false,
                 "contrast" : 100,
                 "contrastEnabled" : 0,
@@ -2680,7 +2700,7 @@
                   ],
                   "cached" : {
                     "html" : "<span data-offset-key=\"8cbgv-0-0\" style=\"tab-size:4;font-family:&quot;.SFNSDisplay-Semibold&quot;, &quot;SFProDisplay-Semibold&quot;, &quot;SFUIDisplay-Semibold&quot;, &quot;.SFUIDisplay-Semibold&quot;, sans-serif;-webkit-text-fill-color:#007AFF;font-size:20px;letter-spacing:0.75px;line-height:1.2\"><span data-text=\"true\">Cancel<\/span><\/span>",
-                    "os" : "10_13",
+                    "os" : "10_14",
                     "size" : {
                       "height" : 24,
                       "width" : 68
@@ -2698,6 +2718,7 @@
               }
             ],
             "clip" : false,
+            "codeOverrideEnabled" : false,
             "codeOverrideFile" : null,
             "codeOverrideIdentifier" : null,
             "codeOverrideName" : null,
@@ -2705,7 +2726,6 @@
             "contrast" : 100,
             "contrastEnabled" : 0,
             "deviceType" : null,
-            "exportIncludesBackground" : true,
             "exportOptions" : [
 
             ],
@@ -2768,6 +2788,7 @@
           }
         ],
         "clip" : true,
+        "codeOverrideEnabled" : false,
         "codeOverrideFile" : null,
         "codeOverrideIdentifier" : null,
         "codeOverrideName" : null,
@@ -2775,7 +2796,6 @@
         "contrast" : 100,
         "contrastEnabled" : 0,
         "deviceType" : null,
-        "exportIncludesBackground" : true,
         "exportOptions" : [
 
         ],
@@ -2868,6 +2888,7 @@
           "backgroundColor" : "#F59D0D",
           "borderRadius" : 8,
           "borderWidth" : 1,
+          "fontFamily" : "-apple-system",
           "fontSize" : "16",
           "fontWeight" : "600",
           "icon" : "pan_tool",
@@ -2875,12 +2896,11 @@
           "isOutline" : false,
           "isPrimary" : false,
           "label" : "Hello Friend!",
-          "placeholders" : null,
-          "textColor" : "white"
+          "letterSpacing" : 2,
+          "textColor" : "white",
+          "textTransform" : "none"
         },
-        "codeOverrideFile" : null,
-        "codeOverrideIdentifier" : null,
-        "codeOverrideName" : null,
+        "codeOverrideEnabled" : false,
         "constraintsLocked" : false,
         "contrast" : 100,
         "contrastEnabled" : 0,
@@ -2907,12 +2927,12 @@
         "heightType" : 0,
         "hueRotate" : 0,
         "hueRotateEnabled" : 0,
-        "id" : "iFkci4pJX",
+        "id" : "VJGoxuxtP",
         "intrinsicHeight" : 44,
         "intrinsicWidth" : 160,
         "invert" : 0,
         "invertEnabled" : 0,
-        "left" : 405,
+        "left" : 149,
         "locked" : false,
         "name" : null,
         "opacity" : 1,
@@ -2931,7 +2951,7 @@
         "saturateEnabled" : 0,
         "sepia" : 0,
         "sepiaEnabled" : 0,
-        "top" : -447,
+        "top" : -750,
         "visible" : true,
         "width" : 160,
         "widthType" : 0
@@ -2941,8 +2961,7 @@
     "name" : null,
     "originalid" : null,
     "parentid" : null,
-    "startPoint" : "KVPByxXAG",
     "visible" : false
   },
-  "version" : 44
+  "version" : 47
 }

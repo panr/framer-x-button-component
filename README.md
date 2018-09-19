@@ -11,8 +11,11 @@ Simple but highly customizable compontent thanks to props like:
 | label | `string` | Sets button label | `Hello Friend!` |
 | backgroundColor | `string` | Sets fill color for **default** and **primary** button. Sets border and text color for **outline** button | `#F59D0D` |
 | textColor | `string` | Sets text color. If **isOutline** is `true` this prop is overridden by `backgroundColor` | `#FFFFFF` |
+| fontFamily | `enum` | Sets font family (only few basic system typefaces) | `-apple-system` |
 | fontSize | `enum` | Sets font size (you can set value from 12 to 24) | `16` |
 | fontWeight | `enum` | Sets text weight (you can set value from 100 to 900) | `600` |
+| textTransform | `enum` | Sets text transform (none, lowercase, uppercase) | `none` |
+| letterSpacing | `number` | Sets space between letters (from 0 to 50) | `2` |
 | borderRadius | `number` | Sets button radius | `8` |
 | borderWidth | `number` | Sets button border width | `1` |
 
