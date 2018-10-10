@@ -1,3 +1,7 @@
+## Link to Framer Store
+
+https://store.framer.com/package/panr/button
+
 ## Overview
 
 Simple but highly customizable compontent thanks to props like:
