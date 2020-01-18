@@ -28,3 +28,9 @@ To create **link button** with proper tap target, just set button as **outline**
 
 ---
 Twitter: [@panr](https://twitter.com/panr) ・ Github: [panr](https://github.com/panr) ・ Website: [radoslawkoziel.pl](https://radoslawkoziel.pl)
+
+## Sponsoring
+
+If you like my work and want to support the development of the project, now you can! Just:
+
+<a href="https://www.buymeacoffee.com/panr" target="_blank"><img src="https://res.cloudinary.com/panr/image/upload/v1579374705/buymeacoffee_y6yvov.svg" alt="Buy Me A Coffee" ></a>
